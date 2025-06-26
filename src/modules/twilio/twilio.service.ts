@@ -13,7 +13,8 @@ export class TwilioService {
   private readonly from: string;
 
   constructor() {
-    const accountSid = 'AC38f97e30f4a27eb7c0b383a6d939ddc7';
+    // const accountSid = 'AC38f97e30f4a27eb7c0b383a6d939ddc7';
+    const accountSid = 'ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
     const authToken = '45aab17db5a2eea9be8ea4050b82b232';
     this.from = '+12693593348';
 
